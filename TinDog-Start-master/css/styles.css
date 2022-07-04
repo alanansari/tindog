@@ -1,0 +1,133 @@
+
+
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 30px;
+}
+
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+h1{
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    
+}
+h2{
+    font-weight: 700;
+    font-size: 3rem;
+}
+h3{
+    font-weight: 700;
+    
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 700;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+.phone-img{
+    width:50%;
+    transform: rotate(25deg);
+    left: 60px;
+    position: absolute;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #ffffff;
+}
+.testimonial-image{
+    margin: 5% 3% 0;
+    width: 10%;
+    border-radius: 100%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-card{
+    padding: 3% 2%;
+}
+#cta{
+    color: white;
+    background-color: #ef8172;
+    text-align: center;
+    padding: 7% 15%;
+}
+#footer{
+    text-align: center;
+    padding: 3%;
+}
+.links{
+    margin-bottom: 20px;
+}
+.ico{
+    color: black;
+    margin-right: 3%;
+}
+@media (max-width:1000px){
+    #title{
+        text-align: center;
+    }
+    .phone-img{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
